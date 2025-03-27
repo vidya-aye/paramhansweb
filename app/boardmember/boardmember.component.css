@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title */
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #140101;
+}
+
+/* Tree Structure */
+.tree ul {
+    padding-top: 20px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.tree li {
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Connecting Lines */
+.tree li::before,
+.tree li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 2px solid #333;
+    width: 50%;
+    height: 20px;
+}
+
+.tree li::after {
+    right: auto;
+    left: 50%;
+}
+
+/* Remove top line from root */
+.tree>ul>li::before,
+.tree>ul>li::after {
+    border: none;
+}
+
+/* Connecting vertical lines */
+.tree li:only-child::after,
+.tree li:only-child::before {
+    display: none;
+}
+
+.tree li:only-child {
+    padding-top: 0;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(190, 187, 187, 0.2);
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    width: 180px;
+    background-color: rgb(50, 99, 183);
+    border: 5px solid #e6c506;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Image Styling */
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+
+/* Name and Position */
+.card h3 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #f6f1f1;
+}
+
+.card p {
+    font-size: 14px;
+    color: #faf7f7;
+}
+
