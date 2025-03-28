@@ -11,34 +11,34 @@ import { AboutComponent } from './about/about.component';
 const routes: Routes = [
 
   {
-    path: 'home',
+    path: 'https://vidya-aye.github.io/paramhansweb/home',
     component: HomeComponent
   },
 
   {
-    path: 'boardmember',
+    path: 'https://vidya-aye.github.io/paramhansweb/boardmember',
     component: BoardmemberComponent
   },
 
   {
-    path: 'Donatenow',
+    path: 'https://vidya-aye.github.io/paramhansweb/Donatenow',
     component: DonatenowComponent
   },
 
   {
-    path: 'Photogallery',
+    path: 'https://vidya-aye.github.io/paramhansweb/Photogallery',
     component: PhotogalleryComponent
   },
 
 
   {
-    path: 'contact',
+    path: 'https://vidya-aye.github.io/paramhansweb/contact',
     component: ContactComponent
   },
 
   {
 
-    path: 'about',
+    path: 'https://vidya-aye.github.io/paramhansweb/about',
     component: AboutComponent
   }
 
