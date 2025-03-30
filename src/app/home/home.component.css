@@ -12,8 +12,6 @@
     background-color: #f4f4f4; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* border: 5px solid #902103; */
-
-
 }
 
 .container2 {
@@ -29,7 +27,6 @@
     background-color: #f4f4f4; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* border: 5px solid #902103; */
-
 }
 
 .container3 {
@@ -45,7 +42,6 @@
     background-color: #f4f4f4; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* border: 5px solid #902103; */
-
 }
 
 .structure {
@@ -53,8 +49,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-
-
 }
 
 .box {
@@ -64,14 +58,11 @@
     border-radius: 10px;
     width: 280px;
     text-align: center;
-
 }
 
 .box h3 {
     margin-top: 0;
 }
-
-
 
 .container5 {
     /* width: 60%; */
@@ -89,8 +80,6 @@
     font-family: Arial, sans-serif;
 }
 
-
-
 /* .container1 {
     max-width: 1100px;
     margin: 20px auto;
@@ -103,8 +92,6 @@ bodyimg {
     background-color: #f4f4f4;
     text-align: center;
     padding: 20px;
-
-
 }
 
 /* Title */
@@ -117,7 +104,6 @@ bodyimg {
 nav {
     background: rgb(50, 99, 183);
     padding: 10px;
-
 }
 
 nav a {
@@ -126,10 +112,7 @@ nav a {
     padding: 15px 20px;
     display: inline-block;
     /* background-color: rgb(31, 28, 28); */
-
-
 }
-
 
 .menu-item {
     list-style: none;
@@ -141,7 +124,6 @@ nav a {
     /* border:1px solid #1B3E70; */
     color: white;
     text-decoration: none;
-
 }
 
 .menu-item a:hover {
@@ -152,7 +134,6 @@ nav a {
 .menu-item .active {
     /* background-color:#1B3E70; */
     color: white;
-
 }
 
 /* Gallery Grid */
@@ -172,11 +153,9 @@ nav a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
-
 .card:hover {
     transform: scale(1.05);
 } */
-
 /* Card Image */
 /* .card img {
     width: 50%;
@@ -188,18 +167,15 @@ nav a {
 /* .card-content {
     padding: 15px;
 }
-
 .card-content h2 {
     font-size: 20px;
     margin: 5px 0;
     color: #333;
 }
-
 .card-content p {
     font-size: 14px;
     color: #666;
 } */
-
 /* ------------------------------history ----------- */
 .history-section {
     /* width: 100%;
@@ -213,15 +189,10 @@ nav a {
     position: relative;
 }
 
-
-
-
 .history-section h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
-
-
 
 .timeline {
     position: relative;
@@ -238,7 +209,6 @@ nav a {
             left: 50%;
             text-align: left;
         } */
-
 .content {
     padding: 20px;
     background: white;
@@ -246,9 +216,6 @@ nav a {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-
-
 
 .container img {
     width: 40%;
@@ -264,15 +231,8 @@ nav a {
     border: 5px solid #851c05;
 }
 
-
-
-
 /* ------------------------------history ----------- */
-
-
 /* event  added */
-
-
 .event-details {
     width: 80%;
     max-width: 600px;
@@ -280,7 +240,6 @@ nav a {
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-
 }
 
 .event-details h2 {
