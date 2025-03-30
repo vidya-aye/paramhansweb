@@ -1,3 +1,14 @@
 .flashtag {
     text-align: center;
 }
+
+
+.header {
+    /* background-color: #218838; */
+    color: #440202;
+    padding: 15px;
+    text-align: center;
+    background-image: url('assets/images/logo2.jpg');
+    text-align: center;
+    font-size: 10px;
+}
