@@ -35,7 +35,54 @@
 
         .main {
             background-image: url('assets/images/logo2.jpg');
-        }
+        }.flashing-background {
+    background-color: #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    animation: flashBackground 1.5s infinite alternate;
+}
+
+/* Typing effect */
+.typing-text {
+    color: rgb(6, 59, 234);
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid white;
+    width: 0;
+    animation: typing 5s steps(40) 1s forwards, blinkCaret 0.75s step-end infinite;
+}
+
+/* Flashing background animation */
+@keyframes flashBackground {
+    0% {
+        background-color: #3498db;
+    }
+    50% {
+        background-color: #34f312;
+    }
+    100% {
+        background-color: #3ce7d0;
+    }
+}
+
+
+
+/* Typing animation */
+@keyframes typing {
+    100% {
+        width: 100%;
+    }
+}
+
+/* Cursor blink effect */
+@keyframes blinkCaret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
     </style>
 
 </head>
@@ -47,6 +94,10 @@
         <h2> ॐ नमः शिवाय</h2>
         <!-- <p> <b>ॐ नमः शिवाय </b></p> -->
     </div>
+
+
+
+
 
 
     <div class="flashtag">
@@ -341,8 +392,15 @@
             [श्री राम कृपाल दास परमहंस आश्रम ]
         </p>
     </div>
+ 
+    
+    <div class="flashing-background">
+      <p class="typing-text">सानन्दमानन्दवने वसन्तं आनन्दकन्दं हतपापवृन्दम्। वाराणसीनाथमनाथनाथं श्रीविश्वनाथं शरणं प्रपद्ये॥ 
+        <br> कृष्णाय वासुदेवाय हरये परमात्मने । प्रणतः क्लेनाशाय गोविंदाय नमो नमः।।</p>
+  </div>
 
-
+  <!-- <script src="script.js"></script> -->
+  <br>
     <div class="flashtag">
         <marquee width="100%" direction="left" scrollamount="10" height="30px"
             style="background-color:rgb(233, 219, 25);">
