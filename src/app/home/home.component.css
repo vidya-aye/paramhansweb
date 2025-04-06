@@ -31,13 +31,38 @@
     /* border: 5px solid #902103; */
 }
 
+.container2 img {
+    width: 40%;
+    height: 10%;
+    border-radius: 8px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 5px solid #e9ce05;
+}
+
+.img1 {
+
+    border-radius: 8px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+
 .container3 {
     /* width: 60%; */
     /* margin: 50px auto;
     padding: 20px; */
     max-width: 600px;
-   margin: 50px auto;
-   padding: 20px;
+    margin: 50px auto;
+    padding: 20px;
     background: white;
     position: relative;
     /* 
@@ -186,6 +211,7 @@ nav a {
     background: rgb(56, 113, 247);
 
 }
+
 .history-section h3 {
     font-size: 1.5em;
     /* margin-bottom: 20px; */
