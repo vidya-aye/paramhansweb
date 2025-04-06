@@ -73,22 +73,6 @@
     margin-top: 0;
 }
 
-.container5 {
-    /* width: 60%; */
-    /* margin: 50px auto;
-    padding: 20px; */
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background: rgb(255, 255, 255);
-    position: relative;
-    /* 
-    background-color: #f4f4f4; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* border: 5px solid #902103; */
-    font-family: Arial, sans-serif;
-}
-
 /* .container1 {
     max-width: 1100px;
     margin: 20px auto;
@@ -187,12 +171,9 @@ nav a {
 } */
 /* ------------------------------history ----------- */
 .history-section {
-    /* width: 100%;
-    margin: 80px auto; */
     text-align: center;
-
-    width: 1100px;
-    margin: 20px auto;
+    max-width: 600px;
+    margin: 50px auto;
     padding: 20px;
     background: white;
     position: relative;
