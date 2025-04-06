@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { BoardmemberComponent } from './boardmember/boardmember.component';
 import { DonatenowComponent } from './donatenow/donatenow.component';
 import { PhotogalleryComponent } from './photogallery/photogallery.component';
+// added for api sqlite 
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +19,9 @@ import { PhotogalleryComponent } from './photogallery/photogallery.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // added for api sqlite 
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

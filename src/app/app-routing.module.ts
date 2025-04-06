@@ -14,35 +14,26 @@ const routes: Routes = [
     path: 'home',
     component: HomeComponent
   },
-
   {
     path: 'boardmember',
     component: BoardmemberComponent
   },
-
   {
     path: 'Donatenow',
     component: DonatenowComponent
   },
-
   {
     path: 'Photogallery',
     component: PhotogalleryComponent
   },
-
-
   {
     path: 'contact',
     component: ContactComponent
   },
-
   {
-
     path: 'about',
     component: AboutComponent
   }
-
-
 ];
 
 @NgModule({
